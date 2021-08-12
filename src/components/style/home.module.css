@@ -1,0 +1,81 @@
+
+@value tokens: "./tokens.module.css";
+@value primaryColor, secondaryColor from tokens;
+
+/*button*/
+.button {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: #ffaa00;
+  border-radius: 35px;
+  padding:1rem
+}
+
+.button__container {
+    text-align: center;
+    margin: 2rem;
+   
+}
+
+.text {
+    font-size:2.1rem;
+    color: white;
+    font-family: Metropolis;
+    font-weight: normal;
+    line-height: 1.5;
+    width: 20rem;
+}
+
+.text__play {
+    color: #ffaa00;
+    font-family: Playfair Display;
+    font-weight: bold;
+}
+
+.text__play__italic {
+    color: #ffaa00;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.text__play__italic__white {
+    color: white;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text__bold__white {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text__bold__orange {
+    font-weight: bold;
+    color: #ffaa00;
+}
+
+.wave:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 500px){
+
+    .text {
+        font-size:5.4rem;
+        width: 90rem;
+        margin: 0 auto;
+    }
+
+    .button {
+    font-size: 2rem;
+    padding:1.5rem
+}
+
+}

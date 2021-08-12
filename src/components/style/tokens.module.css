@@ -1,0 +1,32 @@
+@import "../../index.css";
+
+/*Space*/
+@value spacer1: 2rem;
+@value spacer2: 3rem;
+@value spacer3: 4rem;
+@value spacer4: 1rem;
+
+/*Border*/
+@value border1: 1rem;
+@value border1:2rem;
+
+/*width*/
+@value width1: 40rem;
+@value width2: 65rem;
+
+/*Font-size*/
+
+@value fontSizeText: 2rem;
+@value fontSizeTitel: 2.5rem;
+@value fontSizeTitelPhone: 2.5rem;
+
+/*Color*/
+@value primaryColor:white ;
+@value secondaryColor:#ffaa00;
+
+
+/*Font-family*/
+@value title: "Playfair Display";
+@value text: "Metropolis";
+@value textBold: "OpenSans-Bold";
+

@@ -1,6 +1,7 @@
 body {
+  background: linear-gradient(180.98deg, #F9C4DC 2.13%, #FBCAB1 46.18%, #FFEDA1 123.61%);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: Metropolis, Helvetica, Playfair Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

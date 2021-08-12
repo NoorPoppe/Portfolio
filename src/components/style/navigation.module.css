@@ -1,0 +1,35 @@
+@value tokens: "./tokens.module.css";
+@value spacer1, spacer2 from tokens;
+
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: spacer1 spacer2;
+}
+
+.navBar .mobileNavigation {
+    background-color: #f9c4dc;
+    display: flex;
+    align-items: center;
+}
+
+.navBar .mobileNavigation .hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    
+}
+
+.navBar .navigation  {
+    display: none;
+}
+
+@media only screen and (min-width: 500px){
+    .navBar .mobileNavigation {
+        display: none;
+    }
+    .navBar .navigation {
+        display: flex;
+        
+    }
+}

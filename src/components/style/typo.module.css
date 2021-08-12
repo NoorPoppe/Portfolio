@@ -1,0 +1,58 @@
+@value tokens: "./tokens.module.css";
+@value spacer1, spacer3, title, textBold, fontSizeXL, primaryColor, secondaryColor, thirdColor from tokens;
+
+.line__title {
+ border-left: 2px white solid;
+}
+
+.title1 {
+  font-size: fontSizeXL;
+  font-family: title;
+  color: primaryColor;
+  display: flex;
+  justify-content: center;
+}
+
+.title2 {
+ color: secondaryColor;
+ background-color: primaryColor;
+ padding: spacer3;
+ margin: spacer3 0rem;
+ display: flex;
+ justify-content: center;
+ font-size: fontSizeXL;
+ font-family: title;
+}
+
+.title3 {
+  color: secondaryColor;
+  background-color:thirdColor;
+  padding: 1.5rem;
+  font-size: fontSizeM;
+  font-family: textBold;
+  margin: 0 auto;
+  display: flex;
+  height: 5rem;
+  align-items: center;
+}
+
+.textbold {
+  font-family: textBold;
+}
+
+.navtext {
+  font-family: textBold;
+  color: primaryColor;
+  text-decoration: none;
+  margin: spacer1;
+}
+
+.column {
+ display: flex;
+ flex-direction:column;
+ text-align: center;
+} 
+
+.button {
+  text-align: center;
+}
