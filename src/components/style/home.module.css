@@ -15,17 +15,18 @@
 
 .button__container {
     text-align: center;
-    margin: 2rem;
-   
+    margin: 0 auto; 
+    display: flex;
+    justify-content:center;
 }
 
 .text {
-    font-size:2.1rem;
+    font-size:2rem;
     color: white;
     font-family: Metropolis;
     font-weight: normal;
     line-height: 1.5;
-    width: 20rem;
+    max-width: 500px;
 }
 
 .text__play {
@@ -69,7 +70,7 @@
 
     .text {
         font-size:5.4rem;
-        width: 90rem;
+        max-width: 95rem;
         margin: 0 auto;
     }
 
