@@ -1,10 +1,14 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import stylesHome from "../components/style/home.module.css";
 import style from "../components/style/typo.module.css";
+import items from '../components/projects/AllData';
+import Menu from '../components/projects/menu';
 
 
 const Home = () => {
 
+    const [menuItem, setMenuItem] = useState(items);
     return (
         <div>
             <main>
@@ -14,12 +18,12 @@ const Home = () => {
                 </div>
                 <div className={style.line__title} t>
                     <h1><span>Some</span>Projects</h1>
-                    <section>inladen van projecten</section>
+                    <section>inladen van  3 projecten</section>
+                    <Menu menuItem={menuItem} />
                 </div>
                 <div>
                     <div><h1><span>Contact</span>wanna<span>Work</span>together</h1></div>
-
-                    <section>inladen van projecten</section>
+ 
                 </div>
             </main>
             <footer>

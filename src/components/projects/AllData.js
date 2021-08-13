@@ -1,17 +1,12 @@
-import waarheid from './img/blog1.svg';
-import yessica from '../assets/img/yessica.svg';
-import down from './img/blog3.svg';
-import paranormal from './img/blog4.svg';
-import dog from './img/blog3.svg';
-import kiskizu from './img/blog4.svg';
-import cat from '../assets/img /cat.svg';
+import waarheid from '../../assets/img/yessica.svg';
+import yessica from '../../assets/img/yessica.svg';
+import down from '../../assets/img/yessica.svg';
+import paranormal from '../../assets/img/yessica.svg';
+import dog from '../../assets/img/yessica.svg';
+import kiskizu from '../../assets/img/yessica.svg';
+import cat from '../../assets/img/cat.svg';
 
-import React, { useState } from "react";
-import PropTypes from "prop-types";
-import Projects from "./Projects";
-
-
-const ProjectsDatas =[ 
+export default [
     {
         id: 1,
         image: cat,
@@ -59,25 +54,8 @@ const ProjectsDatas =[
         id: 7,
         image: kiskizu,
         title: 'Kiskizu',
-        category: ['Desgign', 'Development', 'Research'],
+        category: ['design - ', 'research - ', 'development'],
         challenge: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
     }
 ];
 
-
-const ProjectsData = () => {
-    const [projects, setProjects] = useState(ProjectsDatas)
-    
-    return (
-        <section >
-            <h3>Some projects</h3>
-            <ul>
-                {projects.map((project) => <Projects project={project} key={project.id} />)}
-            </ul>
-        </section>
-    )
-}
-ProjectsData.propTypes = {
-    list: PropTypes.array,
-};
-export default ProjectsData
