@@ -10,6 +10,8 @@ import Contact from "./pages/Contact";
 //import ProjectDetailPage from "./pages/ProjectDetail";
 import ProjectDetails from "./pages/ProjectDetail";
 import Nav from "./components/nav/NavBar";
+import Succes from "./components/email/Succes"
+import Footer from "./components/Footer"
 
 const NoMatchRoute = () => <div>404 Page</div>;
 
@@ -25,6 +27,9 @@ function App() {
         <Route path={ROUTES.PROJECTS}>
           <Projects />
         </Route>
+        <Route path={ROUTES.SUCCES}>
+          <Succes />
+        </Route>
         <Route path="/projects/:id">
           <ProjectDetails />
         </Route>
@@ -36,6 +41,7 @@ function App() {
         </Route>
         <Route component={NoMatchRoute} />
       </Switch>
+      <Footer />
     </div>
   );
 }

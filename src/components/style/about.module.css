@@ -1,0 +1,88 @@
+/*header*/
+.title {
+    display: none;
+}
+
+.subtitle {
+    font-family: Playfair Display;
+    font-size: 10rem;
+    color: #ffaa00;
+}
+
+.subtitle__white {
+    background-color: white;
+    padding: .5rem;
+}
+
+.text__intro {
+    font-size: 2rem;
+    color:white;
+    width: 36.6rem;
+    margin-top: -4rem;
+}
+
+/*header grid*/
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__text {
+    margin-left: 7rem;
+}
+
+.fieldset {
+  position: relative;
+  margin: 0 auto ;
+  max-width: 96rem;
+  border: .2rem solid;
+  padding:1rem;
+  color: white;
+}
+
+.legend {
+    line-height: 0;
+    padding: 0 1rem;
+    font-weight: 900;
+     text-align: left;
+     font-size: 4rem;
+}
+
+.legend__right {
+     text-align: right;
+     font-size: 2rem;
+}
+
+.edu__text {
+    font-size: 2.4rem;
+    line-height:2.4;
+    margin-left: 5rem;
+}
+
+.education {
+    display: flex;
+    margin-top: -2rem;
+}
+
+/*skills*/
+.skils_title__res {
+    font-size: 2rem;
+    color: #9993e4;
+}
+
+.skils_title__des {
+    font-size: 2rem;
+    color: #ffaa00;
+}
+
+.skils_title__dev {
+    font-size: 2rem;
+    color: #6dcce2;
+}
+
+/*skills grid*/
+.skills {
+    display: flex;
+    justify-content:space-around;
+    margin: 10rem 0;
+}

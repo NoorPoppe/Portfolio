@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import { ROUTES } from "../../consts";
-import logo from "../../home-logo.svg";
+import { ROUTES } from "../consts/";
+import logo from "../home-logo.svg";
 
 const Footer = () => {
     return ( 

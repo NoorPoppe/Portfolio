@@ -3,6 +3,7 @@ const ROUTES = {
     ABOUT: "/about/",
     PROJECTS: "/projects/",
     CONTACT: "/contact/",
+    SUCCES: "/succes/",
 };
 
 export { ROUTES };
