@@ -8,7 +8,7 @@ import Menu from '../components/projects/menu';
 
 const Home = () => {
 
-    const [menuItem, setMenuItem] = useState(items);
+    const [menuItem] = useState(items);
     return (
         <div>
             <main>
