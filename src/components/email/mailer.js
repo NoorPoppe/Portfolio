@@ -5,11 +5,11 @@ import { useState } from "react";
 
 const Mailer = () => {
     const [name, setName] = useState("");
-    const [values, setValues] = useState({
+    /*const [values, setValues] = useState({
         name: "",
         email:"",
         message: "",
-    })
+    })*/
     function sendEmail(e) {
         e.preventDefault();
 
@@ -39,9 +39,9 @@ const Mailer = () => {
                         value={name}
                         onChange={(e) => setName(e.target.value)} />
                 <label>I would like</label>
-                <textarea value={values.message} name="message" rows="4" placeholder="project description" />
+                <textarea  name="message" rows="4" placeholder="project description" />
                 <label>You can contact me via</label>
-                <input value={values.email} type="email" name="user_email" placeholder="your e-mail" />
+                <input  type="email" name="user_email" placeholder="your e-mail" />
                 
                 <p>Greetings {name}</p>
                <input

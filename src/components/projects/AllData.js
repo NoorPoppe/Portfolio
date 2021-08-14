@@ -6,7 +6,7 @@ import dog from '../../assets/img/yessica.svg';
 import kiskizu from '../../assets/img/yessica.svg';
 import cat from '../../assets/img/cat.svg';
 
-export default [
+const AllData = [
     {
         id: 1,
         image: cat,
@@ -58,4 +58,4 @@ export default [
         challenge: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
     }
 ];
-
+export default AllData;
