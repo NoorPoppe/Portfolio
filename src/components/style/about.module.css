@@ -16,6 +16,7 @@
 
 .text__intro {
     font-size: 2rem;
+    line-height: 1.2;
     color:white;
     width: 36.6rem;
     margin-top: -4rem;
@@ -31,6 +32,7 @@
     margin-left: 7rem;
 }
 
+/*education*/
 .fieldset {
   position: relative;
   margin: 0 auto ;
@@ -38,14 +40,15 @@
   border: .2rem solid;
   padding:1rem;
   color: white;
+  display: flex;
 }
 
 .legend {
-    line-height: 0;
+    line-height: 3;
     padding: 0 1rem;
     font-weight: 900;
-     text-align: left;
-     font-size: 4rem;
+    text-align: left;
+    font-size: 3rem;
 }
 
 .legend__right {
@@ -55,7 +58,7 @@
 
 .edu__text {
     font-size: 2.4rem;
-    line-height:2.4;
+    line-height:2;
     margin-left: 5rem;
 }
 
@@ -63,6 +66,11 @@
     display: flex;
     margin-top: -2rem;
 }
+
+.edu__text__bold {
+    font-weight: bold;
+}
+
 
 /*skills*/
 .skils_title__res {

@@ -5,6 +5,8 @@ import style from "../components/style/typo.module.css"
 import DesignLogos from "../assets/img/skills/logo_design.svg"
 import DevelopmentLogos from "../assets/img/skills/logo_development.svg"
 import ResearchLogos from "../assets/img/skills/logo_research.svg"
+import InterestSlider from "../components/interestSlider"
+
 const About = () => {
 
 
@@ -37,29 +39,28 @@ const About = () => {
             </div>
             <div>
                 <h2 className={style.subtitel}><span className={style.subtitel__first}>My <br /></span>Education</h2>
-                <section>
+                <section className={style.educ}>
                     <fieldset className={styles.fieldset}>
                         <legend className={styles.legend}>Howest - Kask <span className={styles.legend__right}> 2018 - Now</span></legend>
                         <ul className={styles.edu__text}>
                             <li>Kortrijk</li>
                             <li>Bachelor degree</li>
-                            <li>Digital Design & Development</li>
+                            <li className={styles.edu__text__bold}>Digital Design & Development</li>
                         </ul>
                     </fieldset>
-                </section>
-                <section>
                     <fieldset className={styles.fieldset}>
-                        <legend>Sint-Lucas <span>2016 - 2018</span></legend>
-                        <ul>
+                        <legend className={styles.legend}>Sint-Lucas <span className={styles.legend__right}>2016 - 2018</span></legend>
+                        <ul className={styles.edu__text}>
                             <li>Antwerpen</li>
                             <li>Highschool</li>
-                            <li>Industrial product development</li>
+                            <li className={styles.edu__text__bold}>Industrial product development</li>
                         </ul>
                     </fieldset>
                 </section>
             </div>
             <div>
                 <h2 className={style.subtitel}><span className={style.subtitel__first}>My <br /></span>Interests</h2>
+                <InterestSlider />
                 <section>
                     <h3>Art museum</h3>
                     <p></p>

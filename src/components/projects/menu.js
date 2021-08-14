@@ -15,7 +15,7 @@ function Menu({ menuItem }) {
                             <h2>{item.title}</h2>
                             <p>{item.challenge}</p>
                         </div>
-                        <Link to={`/project/${item.id}`}>Show details</Link>
+                            <Link to={`/projects/${item.id}`}>Show details</Link>
                     </div>)
                 })
             }
